@@ -11,7 +11,6 @@ config.mouse_bindings = {
 			if has_selection then
 				window:perform_action(act.CopyTo("ClipboardAndPrimarySelection"), pane)
 				window:perform_action(act.ClearSelection, pane)
-				window:perform_action(act({ PasteFrom = "Clipboard" }), pane)
 			else
 				window:perform_action(act({ PasteFrom = "Clipboard" }), pane)
 			end

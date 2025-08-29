@@ -1,0 +1,4 @@
+import = [
+	#"~/.config/alacritty/themes/themes/1terminal_app.toml",
+	"~/.config/alacritty/my_alacritty.toml",
+]
